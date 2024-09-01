@@ -61,6 +61,6 @@ const responce = `[
 
 //create a server object:
 http.createServer(function (req, res) {
-  res.write(responce);
+  res.write('Node responce Cloudfront');
   res.end();
 }).listen(3001);//port
